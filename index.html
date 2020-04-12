@@ -4,28 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iTalent Portfolio</title>
+    <link rel="shortcut icon" type="image/png" href="images/lightbulb.png">
+    <link href="node_modules/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.css" integrity="sha256-+dIh4jG2jQTHZwW81yUo8h6tzXWcNumyNL5XPZbwp1E=" crossorigin="anonymous" />
     <link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <section id="presentation">
-        <h1>Voorstelling</h1>
-    </section>
-    <section id="interests">
-        <h1>Interesses</h1>
-    </section>
-    <section id="tweakers">
-        <h1>Tweakers</h1>
-    </section>
-    <section id="bruges">
-        <h1>Brugge</h1>
-    </section>
-    <section id="berlin">
-        <h1>Berlijn</h1>
-    </section>
-    <section id="ibm">
-        <h1>IBM Luik</h1>
-    </section>
 
+    <div id="fullpage">
+        <section class="section presentation">
+            <div id="presentation">
+                <p>
+                    Ik ben Ferre Vaes en ben een gepassioneerde fullstack ontwikkelaar.
+                    <br>
+                    <br>
+                    Mijn interesses liggen vooral bij frontend technologieën zoals Angular en React. Naast het programmeren hou ik me vooral bezig met zelfstudie om mijn kennis te verbreden en met gamen.
+
+                </p>
+                <div class="positive-quality">
+                    <i class="fas fa-plus-circle"></i> Variatie
+                </div>
+                <div class="positive-quality">
+                    <i class="fas fa-plus-circle"></i> Sociaal
+                </div>
+                <div class="positive-quality">
+                    <i class="fas fa-plus-circle"></i> In team werken
+                </div>
+                <div class="negative-quality">
+                    <i class="fas fa-minus-circle"></i> Leiders positie
+                </div>
+            </div>
+        </section>
+        <section class="section" id="interests">
+            <h1>Interesses</h1>
+        </section>
+        <section class="section" id="tweakers">
+            <h1>Tweakers</h1>
+        </section>
+        <section class="section" id="bruges">
+            <h1>Brugge</h1>
+        </section>
+        <section class="section" id="berlin">
+            <h1>Berlijn</h1>
+        </section>
+        <section class="section" id="ibm">
+            <h1>IBM Luik</h1>
+        </section>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.js" integrity="sha256-caNcSA0LvOCX90PTuEbwl+V09xPMca13CJUasl+VCtk=" crossorigin="anonymous"></script>
     <script src="index.js"></script>
 </body>
 </html>

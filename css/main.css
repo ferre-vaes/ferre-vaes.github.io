@@ -1,9 +1,34 @@
-section {
-  height: 100vh;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  font-family: 'Montserrat', sans-serif;
 }
 
-section:nth-child(even) {
-  background-color: grey;
+.presentation {
+  background-color: black;
+  font-size: 25px;
   color: white;
+  position: relative;
+}
+
+.presentation #presentation {
+  position: absolute;
+  top: 50%;
+  right: 20%;
+  -webkit-transform: translate(60%, -50%);
+          transform: translate(60%, -50%);
+}
+
+.presentation p {
+  width: 40%;
+}
+
+.presentation .positive-quality {
+  color: green;
+  display: block;
+}
+
+.presentation .negative-quality {
+  color: red;
+  display: block;
 }
 /*# sourceMappingURL=main.css.map */
