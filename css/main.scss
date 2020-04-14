@@ -42,11 +42,12 @@ section {
     }
 
     p {
-        width: 50%;
+        width: 40%;
         margin-bottom: 1em;
     }
 
     button {
+        appearance: button;
         height: 3em;
         width: 10em;
         border-radius: 25px;
@@ -79,7 +80,7 @@ section {
     }
 
     p {
-        width: 50%;
+        width: 40%;
         margin-bottom: 1em;
     }
 
@@ -102,6 +103,40 @@ section {
 
 .img-position {
     object-position: right;
+}
+
+#fp-nav ul li .fp-tooltip.fp-right {
+    color: black;
+}
+
+.activity-page {
+
+    width: 60%;
+    margin: 0 auto;
+
+    p {
+        padding-top: 4em;
+        padding-bottom: 4em;
+        margin: 0 auto;
+    }
+
+    button {
+        appearance: button;
+        height: 3em;
+        width: 10em;
+        border-radius: 25px;
+        outline: none;
+        color: white;
+        background-color: #CE7B91;
+        border: none;
+        transition: all .2s ease-in-out;
+        margin-bottom: 20px;
+    }
+
+    button:hover {
+        background-color: rgb(204, 134, 152);
+        transform: scale(1.1);
+    }
 }
 
 

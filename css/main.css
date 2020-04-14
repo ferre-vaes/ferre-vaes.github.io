@@ -42,11 +42,14 @@ section {
 }
 
 .activity-even p {
-  width: 50%;
+  width: 40%;
   margin-bottom: 1em;
 }
 
 .activity-even button {
+  -webkit-appearance: button;
+     -moz-appearance: button;
+          appearance: button;
   height: 3em;
   width: 10em;
   border-radius: 25px;
@@ -80,7 +83,7 @@ section {
 }
 
 .activity-odd p {
-  width: 50%;
+  width: 40%;
   margin-bottom: 1em;
 }
 
@@ -105,5 +108,42 @@ section {
 .img-position {
   -o-object-position: right;
      object-position: right;
+}
+
+#fp-nav ul li .fp-tooltip.fp-right {
+  color: black;
+}
+
+.activity-page {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.activity-page p {
+  padding-top: 4em;
+  padding-bottom: 4em;
+  margin: 0 auto;
+}
+
+.activity-page button {
+  -webkit-appearance: button;
+     -moz-appearance: button;
+          appearance: button;
+  height: 3em;
+  width: 10em;
+  border-radius: 25px;
+  outline: none;
+  color: white;
+  background-color: #CE7B91;
+  border: none;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  margin-bottom: 20px;
+}
+
+.activity-page button:hover {
+  background-color: #cc8698;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 /*# sourceMappingURL=main.css.map */
