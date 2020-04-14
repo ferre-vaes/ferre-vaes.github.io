@@ -2,33 +2,107 @@
 
 * {
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    font-size: 20px;
+}
+
+section {
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 3em;
+    position: relative;
 }
 
 .presentation {
-    background-color: black;
-    font-size: 25px;
-    color: white;
-    position: relative;
-
-    #presentation {
+    span {
         position: absolute;
-        top: 50%;
-        right: 20%;
-        transform: translate(60%, -50%);
+        margin-bottom: 30px;
+        top: 25%;
+        right: 15%;
+        width: 40%;
+    }
+}
+
+.activity-even {
+    background-color: black;
+    color: white;
+
+    img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 50%;
+        object-fit: cover;
+    }
+
+    h1 {
+        font-size: 2em;
+        margin-bottom: 1em;
     }
 
     p {
-        width: 40%;
+        width: 50%;
+        margin-bottom: 1em;
     }
 
-    .positive-quality {
-        color: green;
-        display: block;
+    button {
+        height: 3em;
+        width: 10em;
+        border-radius: 25px;
+        outline: none;
+        color: white;
+        background-color: #CE7B91;
+        border: none;
+        transition: all .2s ease-in-out;
     }
 
-    .negative-quality {
-        color: red;
-        display: block;
+    button:hover {
+        background-color: rgb(204, 134, 152);
+        transform: scale(1.1);
     }
 }
+
+.activity-odd {
+    img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 50%;
+        object-fit: cover;
+    }
+
+    h1 {
+        font-size: 2em;
+        margin-bottom: 1em;
+    }
+
+    p {
+        width: 50%;
+        margin-bottom: 1em;
+    }
+
+    button {
+        height: 3em;
+        width: 10em;
+        border-radius: 25px;
+        outline: none;
+        color: white;
+        background-color: rgb(34, 41, 68);
+        border: none;
+        transition: all .2s ease-in-out;
+    }
+
+    button:hover {
+        background-color: rgb(38, 45, 68);
+        transform: scale(1.1);
+    }
+}
+
+.img-position {
+    object-position: right;
+}
+
+
 

@@ -1,34 +1,109 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 * {
   font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  font-size: 20px;
 }
 
-.presentation {
-  background-color: black;
-  font-size: 25px;
-  color: white;
+section {
+  height: 100vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 3em;
   position: relative;
 }
 
-.presentation #presentation {
+.presentation span {
   position: absolute;
-  top: 50%;
-  right: 20%;
-  -webkit-transform: translate(60%, -50%);
-          transform: translate(60%, -50%);
-}
-
-.presentation p {
+  margin-bottom: 30px;
+  top: 25%;
+  right: 15%;
   width: 40%;
 }
 
-.presentation .positive-quality {
-  color: green;
-  display: block;
+.activity-even {
+  background-color: black;
+  color: white;
 }
 
-.presentation .negative-quality {
-  color: red;
-  display: block;
+.activity-even img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.activity-even h1 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.activity-even p {
+  width: 50%;
+  margin-bottom: 1em;
+}
+
+.activity-even button {
+  height: 3em;
+  width: 10em;
+  border-radius: 25px;
+  outline: none;
+  color: white;
+  background-color: #CE7B91;
+  border: none;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.activity-even button:hover {
+  background-color: #cc8698;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.activity-odd img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.activity-odd h1 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.activity-odd p {
+  width: 50%;
+  margin-bottom: 1em;
+}
+
+.activity-odd button {
+  height: 3em;
+  width: 10em;
+  border-radius: 25px;
+  outline: none;
+  color: white;
+  background-color: #222944;
+  border: none;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.activity-odd button:hover {
+  background-color: #262d44;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.img-position {
+  -o-object-position: right;
+     object-position: right;
 }
 /*# sourceMappingURL=main.css.map */
