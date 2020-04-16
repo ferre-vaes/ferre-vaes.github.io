@@ -24,6 +24,7 @@ section {
 }
 
 .activity-even {
+    display: grid;
     background-color: black;
     color: white;
 
@@ -110,7 +111,6 @@ section {
 }
 
 .activity-page {
-
     width: 60%;
     margin: 0 auto;
 
@@ -136,6 +136,105 @@ section {
     button:hover {
         background-color: rgb(204, 134, 152);
         transform: scale(1.1);
+    }
+}
+
+
+@media only screen
+and (min-width: 300px)
+and (max-width: 400px) {
+    section {
+        position: relative;
+    }
+
+    .presentation {
+        span {
+            top: 35%;
+            margin-bottom: 30px;
+            width: 80%;
+            font-size: 0.7em;
+        }
+    }
+
+    .activity-even {
+        margin: 0;
+
+        h1 {
+            margin-top: 11em;
+            font-size: 0.9em;
+        }
+
+        p {
+            font-size: 0.7em;
+            width: 80%;
+        }
+
+        img {
+            position: absolute;
+            width: 100vw;
+            margin: 0;
+            left: 0;
+            height: 40%;
+            object-fit: cover;
+        }
+
+        button {
+            appearance: button;
+            height: 3em;
+            width: 10em;
+            font-size: 0.7em;
+            margin-top: 1.5em;
+        }
+    }
+
+    .activity-odd {
+        margin: 0;
+
+        h1 {
+            margin-top: 11em;
+            font-size: 0.9em;
+        }
+
+        p {
+            font-size: 0.7em;
+            width: 80%;
+        }
+
+        img {
+            position: absolute;
+            width: 100vw;
+            margin: 0;
+            left: 0;
+            height: 40%;
+            object-fit: cover;
+        }
+
+        button {
+            appearance: button;
+            height: 3em;
+            width: 10em;
+            font-size: 0.7em;
+            margin-top: 1.5em;
+        }
+    }
+
+    .activity-page {
+        width: 80%;
+        p {
+            font-size: 0.7em;
+        }
+
+        button {
+            appearance: button;
+            height: 3em;
+            width: 10em;
+            font-size: 0.7em;
+            margin-top: 1.5em;
+        }
+
+        img {
+            width: 70%;
+        }
     }
 }
 
