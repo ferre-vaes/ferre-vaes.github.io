@@ -152,28 +152,6 @@ section {
 }
 
 @media only screen
-and (min-width: 750px)
-and (max-width: 1300px) {
-    .presentation {
-        img {
-            width: 350px;
-            height: 350px;
-            top: 3em;
-            left: 25%;
-            right: 50%;
-            margin: 0 auto;
-            object-fit: fill;
-        }
-
-        span {
-            margin-top: 10em;
-            margin-bottom: 30px;
-            width: 70%;
-        }
-    }
-}
-
-@media only screen
 and (min-width: 300px)
 and (max-width: 450px) {
     section {
@@ -184,11 +162,11 @@ and (max-width: 450px) {
         img {
             width: 150px;
             height: 150px;
-            top: 2em;
-            left: 25%;
+            top: 3em;
+            left: 30%;
             right: 50%;
             margin: 0 auto;
-            object-fit: fill;
+            object-fit: cover;
         }
 
         span {
@@ -281,6 +259,27 @@ and (max-width: 450px) {
     }
 }
 
+@media only screen
+and (min-width: 750px)
+and (max-width: 1300px) {
+    .presentation {
+        img {
+            width: 350px;
+            height: 350px;
+            top: 3em;
+            left: 25%;
+            right: 50%;
+            margin: 0 auto;
+            object-fit: cover;
+        }
+
+        span {
+            margin-top: 10em;
+            margin-bottom: 30px;
+            width: 70%;
+        }
+    }
+}
 
 
 

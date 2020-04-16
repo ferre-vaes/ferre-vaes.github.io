@@ -161,37 +161,19 @@ section {
           transform: scale(1.1);
 }
 
-@media only screen and (min-width: 750px) and (max-width: 1300px) {
-  .presentation img {
-    width: 350px;
-    height: 350px;
-    top: 3em;
-    left: 25%;
-    right: 50%;
-    margin: 0 auto;
-    -o-object-fit: fill;
-       object-fit: fill;
-  }
-  .presentation span {
-    margin-top: 10em;
-    margin-bottom: 30px;
-    width: 70%;
-  }
-}
-
-@media only screen and (min-width: 300px) and (max-width: 400px) {
+@media only screen and (min-width: 300px) and (max-width: 450px) {
   section {
     position: relative;
   }
   .presentation img {
     width: 150px;
     height: 150px;
-    top: 2em;
-    left: 25%;
+    top: 3em;
+    left: 30%;
     right: 50%;
     margin: 0 auto;
-    -o-object-fit: fill;
-       object-fit: fill;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .presentation span {
     margin-top: 2em;
@@ -273,6 +255,24 @@ section {
     margin-top: 1.5em;
   }
   .activity-page img {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1300px) {
+  .presentation img {
+    width: 350px;
+    height: 350px;
+    top: 3em;
+    left: 25%;
+    right: 50%;
+    margin: 0 auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .presentation span {
+    margin-top: 10em;
+    margin-bottom: 30px;
     width: 70%;
   }
 }
