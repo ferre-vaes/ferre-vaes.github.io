@@ -161,6 +161,13 @@ section {
           transform: scale(1.1);
 }
 
+.activity-page img {
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 1em;
+}
+
 @media only screen and (min-width: 300px) and (max-width: 450px) {
   section {
     position: relative;
@@ -256,6 +263,9 @@ section {
   }
   .activity-page img {
     width: 70%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 1em;
   }
 }
 

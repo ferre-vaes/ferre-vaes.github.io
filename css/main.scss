@@ -149,6 +149,14 @@ section {
         background-color: rgb(204, 134, 152);
         transform: scale(1.1);
     }
+
+
+    img {
+        width: 70%;
+        margin: 0 auto;
+        display: block;
+        margin-top: 1em;
+    }
 }
 
 @media only screen
@@ -255,6 +263,9 @@ and (max-width: 450px) {
 
         img {
             width: 70%;
+            margin: 0 auto;
+            display: block;
+            margin-top: 1em;
         }
     }
 }
