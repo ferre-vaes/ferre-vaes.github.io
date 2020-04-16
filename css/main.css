@@ -166,14 +166,17 @@ section {
     position: relative;
   }
   .presentation img {
-    width: 200px;
-    height: 200px;
-    top: 3em;
+    width: 150px;
+    height: 150px;
+    top: 2em;
+    left: 25%;
+    right: 50%;
+    margin: 0 auto;
     -o-object-fit: fill;
        object-fit: fill;
   }
   .presentation span {
-    top: 35%;
+    margin-top: 2em;
     margin-bottom: 30px;
     width: 80%;
     font-size: 0.7em;
@@ -187,7 +190,7 @@ section {
   }
   .activity-even p {
     font-size: 0.7em;
-    width: 80%;
+    width: 100%;
   }
   .activity-even img {
     position: absolute;
@@ -203,9 +206,9 @@ section {
        -moz-appearance: button;
             appearance: button;
     height: 3em;
-    width: 10em;
+    width: 11em;
     font-size: 0.7em;
-    margin-top: 1.5em;
+    margin-top: 1em;
   }
   .activity-odd {
     margin: 0;
@@ -232,9 +235,9 @@ section {
        -moz-appearance: button;
             appearance: button;
     height: 3em;
-    width: 10em;
+    width: 11em;
     font-size: 0.7em;
-    margin-top: 1.5em;
+    margin-top: 1em;
   }
   .activity-page {
     width: 80%;
