@@ -151,6 +151,27 @@ section {
     }
 }
 
+@media only screen
+and (min-width: 750px)
+and (max-width: 1300px) {
+    .presentation {
+        img {
+            width: 350px;
+            height: 350px;
+            top: 3em;
+            left: 25%;
+            right: 50%;
+            margin: 0 auto;
+            object-fit: fill;
+        }
+
+        span {
+            margin-top: 10em;
+            margin-bottom: 30px;
+            width: 70%;
+        }
+    }
+}
 
 @media only screen
 and (min-width: 300px)
@@ -259,6 +280,9 @@ and (max-width: 400px) {
         }
     }
 }
+
+
+
 
 
 
